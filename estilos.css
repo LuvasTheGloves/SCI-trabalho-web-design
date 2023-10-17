@@ -50,18 +50,58 @@ nav li:hover {
     transform: scale(1.2);
 }
 
-[class*="parceiros-"]{
+[class*="col-"]{
     float: left; padding-right: 10px;
 }
-.parceiros-1 {    width: 8.33%;}
-.parceiros-2 {    width: 16.66%;}
-.parceiros-3 {    width: 24.99;}
-.parceiros-4 {    width: 33.32%;}
-.parceiros-5 {    width: 41.65%;}
-.parceiros-6 {    width: 49.98%;}
-.parceiros-7 {    width: 58.31%;}
-.parceiros-8 {    width: 66.64%;}
-.parceiros-9 {    width: 74.94%;}
-.parceiros-10 {    width: 83.27%;}
-.parceiros-11 {    width: 91.6%;}
-.parceiros-12 {    width: 100%;}
+.col-1 {    width: 8.33%;}
+.col-2 {    width: 16.66%;}
+.col-3 {    width: 24.99;}
+.col-4 {    width: 33.32%;}
+.col-5 {    width: 41.65%;}
+.col-6 {    width: 49.98%;}
+.col-7 {    width: 58.31%;}
+.col-8 {    width: 66.64%;}
+.col-9 {    width: 74.94%;}
+.col-10 {    width: 83.27%;}
+.col-11 {    width: 91.6%;}
+.col-12 {    width: 100%;}
+
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 100%;
+}
+
+#parceiros {
+    background-color: #777;
+}
+
+#parceiros img {
+    height: 500px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
