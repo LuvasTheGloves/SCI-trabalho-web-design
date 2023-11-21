@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana academica da Informatica</title>
+    <link rel="stylesheet" href="formulário.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Parceiros</a></li>
+                <li><a href="#">Jogos Eletrônicos</a></li>
+                <li><a href="#">Cronologia</a></li>
+                <li><a href="#">Fotos</a></li>
+                <li><a href="#">Inscrever-se</a></li>
+                <li><a href="#">Maratona</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="h1_1" id="forma">Formulário de Inscrição</h1>
+        <form action="#" method="post">
+            <label for="nome">Nome do Aluno:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="matricula">Matrícula do Aluno:</label>
+            <input type="number" id="matricula" name="matricula" required>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required>
+            <small>Formato: 123.456.789-00</small>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="turma">Turma:</label>
+            <select id="turma" name="turma" required>
+                <option value="turma1">INF A 2023</option>
+                <option value="turma2">INF B 2023</option>
+                <option value="turma3">INF A 2022</option>
+                <option value="turma4">INF B 2022</option>
+                <option value="turma5">INF B 2021</option>
+                <option value="turma6">INF A 2021</option>
+            </select>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <!-- Conteúdo do rodapé aqui -->
+    </footer>
+</body>
+</html>
