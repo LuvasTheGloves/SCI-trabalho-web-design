@@ -3,7 +3,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* reset de estilos, XD */
+    box-sizing: border-box;
+    /* reset de estilos, XD */
 }
 
 body {
@@ -13,10 +14,14 @@ body {
 header {
     background-color: rgb(41, 41, 41);
     color: white;
-    padding-top: 20px; /* espaçamento interno superior */
-    padding-bottom: 20px; /* espaçamento interno inferior */
-    padding-left: 20px; /* espaçamento interno esquerdo */
-    padding-right: 20px; /* espaçamento interno direito */
+    padding-top: 20px;
+    /* espaçamento interno superior */
+    padding-bottom: 20px;
+    /* espaçamento interno inferior */
+    padding-left: 20px;
+    /* espaçamento interno esquerdo */
+    padding-right: 20px;
+    /* espaçamento interno direito */
     text-align: center;
 }
 
@@ -50,22 +55,58 @@ nav li:hover {
     transform: scale(1.2);
 }
 
-[class*="col-"]{
-    float: left; padding-right: 10px;
+[class*="col-"] {
+    float: left;
+    padding-right: 10px;
 }
-.col-1 {    width: 8.33%;}
-.col-2 {    width: 16.66%;}
-.col-3 {    width: 24.99;}
-.col-4 {    width: 33.32%;}
-.col-5 {    width: 41.65%;}
-.col-6 {    width: 49.98%;}
-.col-7 {    width: 58.31%;}
-.col-8 {    width: 66.64%;}
-.col-9 {    width: 74.94%;}
-.col-10 {    width: 83.27%;}
-.col-11 {    width: 91.6%;}
-.col-12 {    width: 100%;}
 
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 24.99;
+}
+
+.col-4 {
+    width: 33.32%;
+}
+
+.col-5 {
+    width: 41.65%;
+}
+
+.col-6 {
+    width: 49.98%;
+}
+
+.col-7 {
+    width: 58.31%;
+}
+
+.col-8 {
+    width: 66.64%;
+}
+
+.col-9 {
+    width: 74.94%;
+}
+
+.col-10 {
+    width: 83.27%;
+}
+
+.col-11 {
+    width: 91.6%;
+}
+
+.col-12 {
+    width: 100%;
+}
 
 .container {
     width: 1200px;
@@ -101,7 +142,7 @@ img {
     padding-bottom: 100px;
 }
 
-#cronograma h1{
+#cronograma h1 {
     text-align: center;
 }
 
@@ -138,9 +179,9 @@ img {
     height: 200px
 }
 
-#jogoseletronicos .card{
+#jogoseletronicos .card {
     width: calc(33.33% - 20px);
-    height: 350px;
+    height: 500px;
     margin: 10px;
     padding: 20px;
     background-color: #fff;
@@ -159,6 +200,7 @@ img {
     text-decoration: none;
     color: black;
 }
+
 #jogoseletronicos button {
     transition: transform 0.2s;
 }
@@ -179,6 +221,7 @@ img {
     text-decoration: none;
     color: black;
 }
+
 #fotos button {
     transition: transform 0.2s;
 }
@@ -223,6 +266,7 @@ img {
     text-decoration: none;
     color: black;
 }
+
 #maratona button {
     transition: transform 0.2s;
 }

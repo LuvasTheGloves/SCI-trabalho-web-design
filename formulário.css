@@ -70,9 +70,10 @@ input[type="submit"]:hover {
 small {
     color: #888;
 }
+
 .h1_1 {
     text-align: center;
-    background-color:gray;
+    background-color: gray;
     border-radius: 10px;
 }
 
